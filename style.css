@@ -1,0 +1,33 @@
+@font-face {
+    font-family: LeagueGhotic;
+    src: url(Fonts/LeagueGothic-1.601/static/TTF/LeagueGothic-Regular.ttf);
+}
+
+.coming-soon {
+    font-family: LeagueGhotic;
+    text-align: center;
+    margin-top: 400px
+}
+
+.information-decoration {
+    font-size: 50px;
+    color: darkgrey;
+    transition: text-decoration 0.15s;
+}
+
+.information-decoration:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.15s, progress 0.15s;
+    color: grey;
+}
+
+.information-decoration:active {
+    color: blueviolet;
+    cursor: progress;
+}
+
+body {
+    background: #121212;
+  }
+  
