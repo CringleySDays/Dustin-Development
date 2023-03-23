@@ -6,4 +6,4 @@ app = Flask(__name__, template_folder="templates", static_folder="templates/stat
 def home():
     return render_template("index.html")
 
-app.run(debug=True)
+app.run(debug=True, port=10004)
